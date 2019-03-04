@@ -26,7 +26,7 @@ $phone = $_POST['phone'];
     $letter .="Email: ".$email."<br/>";
     $letter .="Телефон: ".$phone."<br/>";
     $letter .='Сообщение:  <br/>'.$message;
-        
+     mail('example@gmail.com', $theme, $letter, $headers);
     ?>
     <h1>Вы отправили письмо</h1>
     <div class="info">
