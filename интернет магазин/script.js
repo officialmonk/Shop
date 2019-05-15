@@ -4,7 +4,7 @@ $("#burg").on('click', function(){
 })
 var slides = document.querySelectorAll('#slides .sliders');
 var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,1000000000);
+var slideInterval = setInterval(nextSlide,2000);
 
 function nextSlide() {
  slides[currentSlide].className = 'sliders';
